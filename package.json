@@ -1,7 +1,7 @@
 {
-  "name": "portfolio-project",
+  "name": "Colorado-Beer-Map",
   "version": "1.0.0",
-  "description": "NuCamp Portfolio Project Buildout",
+  "description": "",
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",

@@ -1,1 +1,15 @@
 //Typography
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,900|Stint+Ultra+Expanded&display=swap');
+
+body {
+    font-family: $body-copy;
+    font-weight: 300;
+}
+.display-4 {
+    font-family: $heading;
+
+    @media (max-width: $medium) {
+        font-size: 2rem;
+    }
+}

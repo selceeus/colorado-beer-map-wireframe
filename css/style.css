@@ -1,5 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,900|Stint+Ultra+Expanded&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300; }
+
+.display-4 {
+  font-family: "Stint Ultra Expanded", cursive; }
+  @media (max-width: 768px) {
+    .display-4 {
+      font-size: 2rem; } }
+
 .listing section#hero {
   padding-top: 55px; }
 
+@media (max-width: 576px) {
+  .mobile-heading {
+    padding-left: 5vw;
+    padding-right: 5vw; } }
+
 .nav-link {
   cursor: pointer; }
+
+.btn-secondary {
+  background-color: #3a7d44;
+  border: none; }
+  .btn-secondary:hover {
+    background-color: #224928; }
+
+.bg-dark {
+  background-color: #69140e !important; }
+
+.bg-light {
+  background-color: #fcfbf6 !important; }
+
+.card {
+  transition: all 0.25s ease-in;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1); }
+  .card:hover {
+    transform: scale(1.05); }

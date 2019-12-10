@@ -1,1 +1,16 @@
 //Theme Overides
+
+.bg-dark {
+    background-color: $red!important;
+}
+.bg-light {
+    background-color: lighten( $tan, 10% )!important;
+}
+.card {
+    transition: $global-transition;
+    box-shadow: $global-shadow;
+
+    &:hover {
+        transform: $scale;
+    }
+}

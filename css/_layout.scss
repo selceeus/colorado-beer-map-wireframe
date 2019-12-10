@@ -6,3 +6,10 @@
         padding-top: 55px;
     }
 }
+.mobile-heading {
+    
+    @media (max-width: $small) {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+}

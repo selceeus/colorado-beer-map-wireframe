@@ -17,6 +17,13 @@ body {
     padding-left: 5vw;
     padding-right: 5vw; } }
 
+.search-box {
+  position: absolute;
+  bottom: 50px;
+  z-index: 100;
+  right: 0;
+  left: 0; }
+
 .nav-link {
   cursor: pointer; }
 
@@ -25,6 +32,10 @@ body {
   border: none; }
   .btn-secondary:hover {
     background-color: #224928; }
+
+.jumbotron {
+  padding-top: 3rem;
+  height: 95vh; }
 
 .bg-dark {
   background-color: #69140e !important; }

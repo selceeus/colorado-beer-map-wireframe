@@ -14,6 +14,7 @@
        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+       <link rel="stylesheet" href="node_modules/mapbox-gl/dist/mapbox-gl.css" />
        <link rel="stylesheet" href="css/style.css">
        <!-- endbuild -->
 
@@ -124,8 +125,8 @@
         </nav>
         <main role="main">
             <section id="hero">
-                <div class="jumbotron jumbotron-fluid min-vh-100 d-flex align-items-end">
-                    <div class="container">
+                <div id="map" class="jumbotron jumbotron-fluid d-flex align-items-start">
+                    <div class="container search-box">
                         <div class="row">
                             <div class="col-sm-6 pl-3 mx-auto">
                                 <div class="input-group input-group-lg">
@@ -289,6 +290,8 @@
         <script src="node_modules/jquery/dist/jquery.slim.min.js" async defer></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js" async defer></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" async defer></script>
+        <script src="node_modules/mapbox-gl/dist/mapbox-gl.js"></script>
+        <script src="js/scripts.js" async defer></script>
         <!-- endbuild -->
         
     </body>

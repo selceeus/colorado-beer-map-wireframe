@@ -1,8 +1,15 @@
 //Theme Overides
 
+.home #hero {
+    background-image: url(../img/cbm-landing-bkg-80.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .jumbotron {
     padding-top:3rem;
     height:95vh;
+    background-color:transparent!important;
 }
 .bg-dark {
     background-color: $red!important;
@@ -17,4 +24,14 @@
     &:hover {
         transform: $scale;
     }
+}
+.modal-content {
+    border:none;
+
+    .modal-header {
+        background-color:$green;
+    }
+}
+.form-control {
+    border: none;
 }

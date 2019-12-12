@@ -9,6 +9,10 @@ body {
     .display-4 {
       font-size: 2rem; } }
 
+h3.card-title {
+  font-weight: 600;
+  font-size: 2.5em; }
+
 .listing section#hero {
   padding-top: 55px; }
 
@@ -33,9 +37,16 @@ body {
   .btn-secondary:hover {
     background-color: #224928; }
 
+.home #hero {
+  background-image: url(../img/cbm-landing-bkg-80.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .jumbotron {
   padding-top: 3rem;
-  height: 95vh; }
+  height: 95vh;
+  background-color: transparent !important; }
 
 .bg-dark {
   background-color: #69140e !important; }
@@ -48,3 +59,11 @@ body {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1); }
   .card:hover {
     transform: scale(1.05); }
+
+.modal-content {
+  border: none; }
+  .modal-content .modal-header {
+    background-color: #3a7d44; }
+
+.form-control {
+  border: none; }

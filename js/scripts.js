@@ -1,4 +1,5 @@
 
+//Mapping
 const mapContainer = $('#map');
 
 if( mapContainer.length > 0 ) {

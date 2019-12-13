@@ -38,18 +38,22 @@ h3.card-title {
   .btn-secondary:hover {
     background-color: #354c33; }
 
+@media (max-width: 992px) {
+  .navbar {
+    justify-content: flex-end; } }
+
 .navbar-brand {
   transition: all 0.25s ease-in;
   position: absolute;
   width: 70px;
   height: 70px;
   background: #fff;
-  margin-top: 20px;
-  margin-left: 25px;
   padding: 7px;
   border-radius: 50%;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-  text-align: center; }
+  text-align: center;
+  top: 15px;
+  left: 25px; }
   .navbar-brand:hover {
     transform: scale(1.05); }
   @media (max-width: 400px) {
@@ -58,6 +62,18 @@ h3.card-title {
   .navbar-brand img {
     margin-top: 2px;
     width: 60%; }
+
+.navbar-dark .navbar-toggler {
+  border: none; }
+
+.navbar-toggler {
+  font-size: 1.5rem; }
+
+.navbar-collapse {
+  text-align: center; }
+
+li a.login.ml-3 {
+  margin-left: 0 !important; }
 
 .home #hero {
   background-image: url(../img/cbm-landing-bkg-80.jpg);
@@ -100,6 +116,9 @@ h3.card-title {
 
 .home #hero .form-control {
   border: none; }
+  @media (max-width: 400px) {
+    .home #hero .form-control small {
+      font-size: 12px; } }
 
 #detailedListing {
   height: 90%; }

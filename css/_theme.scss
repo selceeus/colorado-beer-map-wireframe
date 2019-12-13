@@ -1,17 +1,22 @@
 //Theme Overides
+.navbar {
 
+    @media (max-width: $large) {
+        justify-content: flex-end;
+    }
+}
 .navbar-brand {
     transition: $global-transition;
     position: absolute;
     width: 70px;
     height: 70px;
     background: #fff;
-    margin-top: 20px;
-    margin-left: 25px;
     padding: 7px;
     border-radius: 50%;
     box-shadow: $callout-shadow;
     text-align: center;
+    top:15px;
+    left:25px;
 
     &:hover {
         transform:$scale;
@@ -27,6 +32,18 @@
         margin-top: 2px;
         width: 60%;
     }
+}
+.navbar-dark .navbar-toggler {
+    border:none;
+}
+.navbar-toggler {
+    font-size: 1.5rem;
+}
+.navbar-collapse {
+    text-align:center;
+}
+li a.login.ml-3 {
+    margin-left:0!important;
 }
 .home #hero {
     background-image: url(../img/cbm-landing-bkg-80.jpg);
@@ -79,6 +96,12 @@
 }
 .home #hero .form-control {
     border: none;
+
+    @media (max-width: $xsmall) {
+        small {
+            font-size:12px;
+        }
+    }
 }
 #detailedListing {
     height: 90%;

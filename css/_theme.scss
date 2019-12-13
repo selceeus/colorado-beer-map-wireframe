@@ -1,5 +1,33 @@
 //Theme Overides
 
+.navbar-brand {
+    transition: $global-transition;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 7px;
+    border-radius: 50%;
+    box-shadow: $callout-shadow;
+    text-align: center;
+
+    &:hover {
+        transform:$scale;
+    }
+
+    @media (max-width: $xsmall) {
+        &:hover {
+            transform: $mobile-scale;
+        }
+    }
+
+    img {
+        margin-top: 2px;
+        width: 60%;
+    }
+}
 .home #hero {
     background-image: url(../img/cbm-landing-bkg-80.jpg);
     background-position: center;
@@ -24,6 +52,23 @@
     &:hover {
         transform: $scale;
     }
+
+    @media (max-width: $xsmall) {
+        &:hover {
+            transform: $mobile-scale;
+        }
+    }
+}
+.cta-callout {
+    background-image: url(../img/cbm-grad-topo-bkg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .btn {
+        box-shadow:$callout-shadow;
+    }
+
 }
 .modal-content {
     border:none;
@@ -34,4 +79,7 @@
 }
 .home #hero .form-control {
     border: none;
+}
+#detailedListing {
+    height: 90%;
 }

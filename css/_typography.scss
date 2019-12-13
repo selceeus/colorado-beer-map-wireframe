@@ -8,6 +8,7 @@ body {
 }
 .display-4 {
     font-family: $heading;
+    font-size:3em;
 
     @media (max-width: $medium) {
         font-size: 2rem;

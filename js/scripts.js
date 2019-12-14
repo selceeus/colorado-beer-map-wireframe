@@ -1,4 +1,13 @@
 
+//Modals
+$("#signupBtn").on('click', function(){
+    $('#signup').modal('show');
+});
+
+$("#loginBtn").on('click', function(){
+    $('#login').modal('show');
+});
+
 //Mapping
 const mapContainer = $('#map');
 

@@ -43,7 +43,7 @@ h3.card-title {
     justify-content: flex-end; } }
 
 .navbar-brand {
-  transition: all 0.25s ease-in;
+  transition: all 0.15s ease-in;
   position: absolute;
   width: 70px;
   height: 70px;
@@ -93,7 +93,7 @@ li a.login.ml-3 {
   background-color: #fcfbf6 !important; }
 
 .card {
-  transition: all 0.25s ease-in;
+  transition: all 0.15s ease-in;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1); }
   .card:hover {
     transform: scale(1.05); }
